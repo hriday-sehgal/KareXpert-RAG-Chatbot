@@ -1,0 +1,6 @@
+fastapi==0.95.1
+pymongo==4.5.0
+sentence-transformers==2.2.2
+huggingface-hub==0.15.1
+uvicorn==0.21.1
+asyncio==3.4.3

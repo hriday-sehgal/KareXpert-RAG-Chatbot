@@ -1,0 +1,34 @@
+
+Sample MongoDb (sample_mflix) dataset is used for testing purposes
+
+Sample Postman test api body format for /trainbot API for users collection with vector index
+{
+    "collection_name": "users",
+    "fields": ["name", "email"],
+    "path": "embedding",
+    "num_dimensions": 384,
+    "similarity": "cosine"
+}
+
+Sample Postman test api body format for /trainbot API for movies collection with vector index
+{
+    "collection_name": "movies",
+    "fields": ["title", "plot", "fullplot"],
+    "path": "embedding",
+    "num_dimensions": 384,
+    "similarity": "cosine"
+}
+
+Sample Postman test api body format for /response API for movies collection 
+{
+  "collection_name": "movies",
+  "query": "What is the best romantic movie to watch and why?"
+}
+
+Sample Postman test api body format for /response API for users collection
+{
+  "collection_name": "users",
+  "query": "what is the email for name Ned Stark"
+}
+
+
