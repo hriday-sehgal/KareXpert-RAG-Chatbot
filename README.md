@@ -1,4 +1,4 @@
-# KareXpert-RAG-Chatbot
+# RAG-Chatbot
 
 This chatbot is a context-aware chatbot built using a RAG (Retrieval-Augmented Generation) architecture. It integrates MongoDB Atlas vector search for document retrieval, the SentenceTransformer model for generating vector embeddings, and Google's Gemma-2b-it LLM for natural language responses.
 
