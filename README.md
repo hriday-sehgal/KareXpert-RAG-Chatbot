@@ -60,7 +60,7 @@ Before you start, ensure that you have:
 
 Clone the repository:
 
-https://github.com/hriday-sehgal/KareXpert-RAG-Chatbot.git
+https://github.com/hriday-sehgal/RAG-Chatbot.git
 
 cd bot
 
